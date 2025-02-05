@@ -1,0 +1,18 @@
+backend:
+1. add logger
+
+frontend:
+1. rewrite cleaner
+2. use "ajax" so no using location.reload();
+
+email-sender:
+spring.mail.username=f716d8867119ddd4f2aec0b165c32459
+spring.mail.password=c7e1f52ebbc6972f0288c28ffe552199
+sender.email=tasker.spring@gmail.com
+
+backend:
+spring.datasource.url=jdbc:mysql://localhost:3306/mydatabase
+spring.datasource.username=user
+spring.datasource.password=password
+frontend.http.address=http://localhost:3000
+SECRET_KEY=7b9f53baa3aa2edffff6d78c4f2ee5355f68b0a9db33e21458c2177b79773d20

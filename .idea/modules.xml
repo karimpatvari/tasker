@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/monorepo.iml" filepath="$PROJECT_DIR$/.idea/modules/monorepo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/backend/monorepo.backend.iml" filepath="$PROJECT_DIR$/.idea/modules/backend/monorepo.backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/backend/monorepo.backend.main.iml" filepath="$PROJECT_DIR$/.idea/modules/backend/monorepo.backend.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/backend/monorepo.backend.test.iml" filepath="$PROJECT_DIR$/.idea/modules/backend/monorepo.backend.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common-dtos/monorepo.common-dtos.iml" filepath="$PROJECT_DIR$/.idea/modules/common-dtos/monorepo.common-dtos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common-dtos/monorepo.common-dtos.main.iml" filepath="$PROJECT_DIR$/.idea/modules/common-dtos/monorepo.common-dtos.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common-dtos/monorepo.common-dtos.test.iml" filepath="$PROJECT_DIR$/.idea/modules/common-dtos/monorepo.common-dtos.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/email-sender/monorepo.email-sender.iml" filepath="$PROJECT_DIR$/.idea/modules/email-sender/monorepo.email-sender.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/email-sender/monorepo.email-sender.main.iml" filepath="$PROJECT_DIR$/.idea/modules/email-sender/monorepo.email-sender.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/email-sender/monorepo.email-sender.test.iml" filepath="$PROJECT_DIR$/.idea/modules/email-sender/monorepo.email-sender.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/frontend/monorepo.frontend.iml" filepath="$PROJECT_DIR$/.idea/modules/frontend/monorepo.frontend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/monorepo.main.iml" filepath="$PROJECT_DIR$/.idea/modules/monorepo.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/monorepo.test.iml" filepath="$PROJECT_DIR$/.idea/modules/monorepo.test.iml" />
+    </modules>
+  </component>
+</project>
