@@ -1,6 +1,7 @@
 package com.simple.scheduler.services;
 
-import main.EmailSendingDto;
+
+import com.simple.scheduler.dtos.EmailSendingDto;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;
 

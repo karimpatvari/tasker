@@ -29,12 +29,12 @@ dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-mail")
 	implementation("org.springframework.boot:spring-boot-starter-security")
 	implementation("org.springframework.boot:spring-boot-starter-web")
+	testImplementation ("org.springframework.boot:spring-boot-starter-test")
 
 	// Additional libraries
 	implementation("org.liquibase:liquibase-core")
 	implementation("org.springframework.kafka:spring-kafka")
 	implementation("org.springframework.session:spring-session-core")
-	implementation(project(":common-dtos"))
 
 	// JWT
 	implementation("io.jsonwebtoken:jjwt-api:0.11.5")

@@ -54,6 +54,7 @@ services:
   email-sender:
     build: ./email-sender
     depends_on:
+      - backend
       - kafka
     environment:
       SPRING_KAFKA_BOOTSTRAP_SERVERS: "kafka:9092"
@@ -66,6 +67,7 @@ services:
   scheduler:
     build: ./scheduler
     depends_on:
+      - backend
       - kafka
     environment:
       SPRING_DATASOURCE_URL: "jdbc:mysql://db:3306/mydatabase"

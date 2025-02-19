@@ -1,6 +1,6 @@
 package com.tasker.scheduler.services;
 
-import main.EmailSendingDto;
+import com.simple.scheduler.dtos.EmailSendingDto;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.kafka.core.KafkaTemplate;

@@ -5,7 +5,6 @@ import com.simple.scheduler.models.User;
 import com.simple.scheduler.services.AuthenticationService;
 import com.simple.scheduler.services.EmailSendingService;
 import com.simple.scheduler.services.UserService;
-import main.EmailSendingDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.ResponseEntity;

@@ -1,6 +1,7 @@
 package com.tasker.email_sender.services;
 
-import main.EmailSendingDto;
+
+import com.simple.scheduler.dtos.EmailSendingDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Service;

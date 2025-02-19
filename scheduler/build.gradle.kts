@@ -33,7 +33,7 @@ dependencies {
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	testImplementation("org.springframework.kafka:spring-kafka-test")
 	testRuntimeOnly("org.junit.platform:junit-platform-launcher")
-	implementation(project(":common-dtos"))
+	implementation(project(":backend"))
 	implementation ("com.fasterxml.jackson.core:jackson-databind:2.16.1")
 }
 

@@ -1,10 +1,10 @@
 package com.tasker.scheduler.services;
 
+import com.simple.scheduler.dtos.EmailSendingDto;
 import com.tasker.scheduler.dtos.TaskSummaryResponse;
 import com.tasker.scheduler.models.Task;
 import com.tasker.scheduler.models.User;
 import com.tasker.scheduler.repository.TaskRepository;
-import main.EmailSendingDto;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

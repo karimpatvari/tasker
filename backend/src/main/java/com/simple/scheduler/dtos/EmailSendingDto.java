@@ -1,4 +1,4 @@
-package main;
+package com.simple.scheduler.dtos;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

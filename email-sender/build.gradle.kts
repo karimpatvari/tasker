@@ -27,7 +27,7 @@ dependencies {
 	implementation ("org.springframework.kafka:spring-kafka:3.3.2")  // Adjust if needed
 	implementation ("com.fasterxml.jackson.core:jackson-databind:2.15.0") // Add Jackson Databind
 	implementation("org.springframework.boot:spring-boot-starter-mail")
-	implementation(project(":common-dtos"))
+	implementation(project(":backend"))
 	compileOnly("org.projectlombok:lombok")
 	annotationProcessor("org.projectlombok:lombok")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
