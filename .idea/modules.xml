@@ -14,6 +14,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/email-sender/monorepo.email-sender.test.iml" filepath="$PROJECT_DIR$/.idea/modules/email-sender/monorepo.email-sender.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/frontend/monorepo.frontend.iml" filepath="$PROJECT_DIR$/.idea/modules/frontend/monorepo.frontend.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/monorepo.main.iml" filepath="$PROJECT_DIR$/.idea/modules/monorepo.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scheduler/monorepo.scheduler.iml" filepath="$PROJECT_DIR$/.idea/modules/scheduler/monorepo.scheduler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scheduler/monorepo.scheduler.main.iml" filepath="$PROJECT_DIR$/.idea/modules/scheduler/monorepo.scheduler.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scheduler/monorepo.scheduler.test.iml" filepath="$PROJECT_DIR$/.idea/modules/scheduler/monorepo.scheduler.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/monorepo.test.iml" filepath="$PROJECT_DIR$/.idea/modules/monorepo.test.iml" />
     </modules>
   </component>

@@ -4,7 +4,47 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47b96b40-bea3-40a0-8fc0-8703b94d207d" name="Changes" comment="" />
+    <list default="true" id="47b96b40-bea3-40a0-8fc0-8703b94d207d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/scheduler/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scheduler/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scheduler/build/classes/java/main/com/tasker/scheduler/SchedulerApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scheduler/build/classes/java/main/com/tasker/scheduler/dtos/TaskSummaryResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scheduler/build/classes/java/main/com/tasker/scheduler/models/Task.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scheduler/build/classes/java/main/com/tasker/scheduler/models/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scheduler/build/classes/java/main/com/tasker/scheduler/repository/TaskRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scheduler/build/classes/java/main/com/tasker/scheduler/repository/UserRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scheduler/build/classes/java/main/com/tasker/scheduler/services/EmailService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scheduler/build/classes/java/main/com/tasker/scheduler/services/MessageService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scheduler/build/classes/java/main/com/tasker/scheduler/services/ScheduledService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scheduler/build/libs/scheduler-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scheduler/build/resolvedMainClassName" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scheduler/build/resources/main/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scheduler/build/tmp/bootJar/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scheduler/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scheduler/src/main/java/com/tasker/scheduler/SchedulerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scheduler/src/main/java/com/tasker/scheduler/dtos/TaskSummaryResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scheduler/src/main/java/com/tasker/scheduler/models/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scheduler/src/main/java/com/tasker/scheduler/models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scheduler/src/main/java/com/tasker/scheduler/repository/TaskRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scheduler/src/main/java/com/tasker/scheduler/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scheduler/src/main/java/com/tasker/scheduler/services/EmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scheduler/src/main/java/com/tasker/scheduler/services/MessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scheduler/src/main/java/com/tasker/scheduler/services/ScheduledService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scheduler/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scheduler/src/test/java/com/tasker/scheduler/SchedulerApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,16 +101,23 @@
   <component name="JpbToolWindowState">
     <option name="isToolWindowVisible" value="false" />
   </component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2sTD1E4LSv1QONG7JHL6EeFgtAV" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "Gradle.Build monorepo.executor": "Run",
     "Gradle.monorepo:backend [bootJar].executor": "Run",
     "Gradle.monorepo:backend [clean].executor": "Run",
@@ -84,24 +131,26 @@
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.SchedulerApplication.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/karimpatvari/IdeaProjects/monorepo/email-sender",
+    "last_opened_file_path": "/Users/karimpatvari/IdeaProjects/monorepo",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/Users/karimpatvari/IdeaProjects/monorepo/common-dtos/src/main/java/main/Main.java",
+    "onboarding.tips.debug.path": "/Users/karimpatvari/IdeaProjects/monorepo/task-tracker-scheduler/src/main/java/main/Main.java",
+    "run.configurations.included.in.services": "true",
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/email-sender" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/email-sender" />
       <recent name="$PROJECT_DIR$/backend" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -112,6 +161,15 @@
       <recent name="main" />
       <recent name="com.tasker.email_sender" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
   </component>
   <component name="RunManager" selected="Gradle.monorepo [clean]">
     <configuration name="monorepo [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -136,7 +194,7 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="monorepo:backend [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="monorepo:backend [bootJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/backend" />
@@ -147,7 +205,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="clean" />
+            <option value="bootJar" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -158,10 +216,10 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="monorepo:common-dtos [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="monorepo:backend [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/common-dtos" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/backend" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" />
         <option name="taskDescriptions">
@@ -231,6 +289,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SchedulerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="monorepo.scheduler.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tasker.scheduler.SchedulerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SchedulerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="monorepo.backend.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.simple.scheduler.SchedulerApplication" />
@@ -239,21 +304,22 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Gradle.monorepo:backend [bootJar]" />
       <item itemvalue="Gradle.monorepo [clean]" />
       <item itemvalue="Gradle.monorepo:backend [clean]" />
-      <item itemvalue="Gradle.monorepo:common-dtos [clean]" />
       <item itemvalue="Gradle.monorepo:email-sender [bootJar]" />
       <item itemvalue="Gradle.monorepo:email-sender [clean]" />
+      <item itemvalue="Spring Boot.SchedulerApplication (1)" />
       <item itemvalue="Spring Boot.EmailSenderApplication" />
       <item itemvalue="Spring Boot.SchedulerApplication" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.monorepo [clean]" />
-        <item itemvalue="Gradle.monorepo:email-sender [clean]" />
-        <item itemvalue="Gradle.monorepo:common-dtos [clean]" />
-        <item itemvalue="Gradle.monorepo:backend [clean]" />
         <item itemvalue="Gradle.monorepo:email-sender [bootJar]" />
+        <item itemvalue="Gradle.monorepo:email-sender [clean]" />
+        <item itemvalue="Gradle.monorepo:backend [bootJar]" />
+        <item itemvalue="Gradle.monorepo:backend [clean]" />
       </list>
     </recent_temporary>
   </component>
@@ -281,6 +347,7 @@
       <workItem from="1738485349518" duration="605000" />
       <workItem from="1738486035770" duration="2089000" />
       <workItem from="1738643039592" duration="28511000" />
+      <workItem from="1739922246019" duration="2054000" />
     </task>
     <servers />
   </component>
@@ -290,6 +357,32 @@
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
     <option featureType="com.intellij.fileTypeFactory" implementationName="nginx.conf" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -318,6 +411,11 @@
           <url>file://$PROJECT_DIR$/common-dtos/src/main/java/main/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/task-tracker-scheduler/src/main/java/main/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -13,6 +13,7 @@
             <option value="$PROJECT_DIR$/common-dtos" />
             <option value="$PROJECT_DIR$/email-sender" />
             <option value="$PROJECT_DIR$/frontend" />
+            <option value="$PROJECT_DIR$/scheduler" />
           </set>
         </option>
       </GradleProjectSettings>
